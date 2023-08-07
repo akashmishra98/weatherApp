@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(3, 122, 122);
+}
+.inputBox{
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    
+}
+#searchInput
+{
+    height: 11.8%;
+    width: 30%;
+    background-color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+}
+
+.inputBox button{
+    height: 8%;
+    width: 6%;
+    margin: 1px;
+    border: 0;
+    cursor: pointer;
+}
+.weather{
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-top: -8%;
+    /* border: 2px solid greenyellow; */
+}
+.weather img{
+    height: 180px;
+    width: 180px;
+}
+.col
+{
+    height: 180px;
+    width: 180px;
+}
+.detail{
+    height: auto;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}

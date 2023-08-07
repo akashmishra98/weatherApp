@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./weather.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="searchBox">
+        <div class="inputBox">
+            <input id ="searchInput" type="search" placeholder=" Search the city name"/>
+        <button onclick="callApi()"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+        </div>
+    </div>
+    <div class="weather">
+        <img src="https://cdn-icons-png.flaticon.com/512/4052/4052984.png" alt="">
+        <h1 class="temp"id="tempvalue">22°C</h1>
+        <h2 class="city" id ="cityname">New Delhi</h2>
+        <div class="detail">
+            <div class="col">
+                <img src="https://cdn-icons-png.flaticon.com/512/1779/1779817.png" alt="">
+                <h1 class="Humidity">Humidity</h1>
+                <h1 class="Humidity" id = "humidityval">50%</h1>
+            </div>
+            <div class="col">
+                <img src="https://cdn-icons-png.flaticon.com/512/615/615486.png" alt="">
+                <h1 class="Wind">Wind </h1>
+                <h1 class="Wind" id = "windVal">~ 6 m/s</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5a025d9b0a.js" crossorigin="anonymous"></script>
+    <script src="./weather.js"></script>
+</body>
+</html>
