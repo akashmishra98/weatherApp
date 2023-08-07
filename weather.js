@@ -27,3 +27,14 @@ async function callApi()
     })
     document.getElementById('cityname').innerHTML = city;
 }
+
+
+
+var input = document.getElementById("searchInput");
+
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("btnclick").click();
+  }
+});
